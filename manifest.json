@@ -1,11 +1,11 @@
 {
-    "name": "my_gamedev_site",
-    "short_name": "my_gamedev_site",
+    "name": "Maxim Omelchenko (gamedev))",
+    "short_name": "Maxim Omelchenko (gamedev)",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "My GameDev site (AskezaMax)",
+    "description": "My GameDev site (Maxim Omelchenko (gamedev))",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
