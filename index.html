@@ -1,59 +1,128 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
-
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="Maxim Omelchenko (gamedev) (AskezaMax)">
-
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="Maxim Omelchenko (gamedev)">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>Maxim Omelchenko (gamedev)</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maksym Omelchenko, game developer</title>
+  <meta name="description" content="Games and ready-made character art by independent developer Maksym Omelchenko.">
+  <meta name="theme-color" content="#efe8dc">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <link rel="canonical" href="https://askezamax.github.io/">
+  <meta property="og:title" content="Maksym Omelchenko, game developer">
+  <meta property="og:description" content="Games and ready-made character art by Maksym Omelchenko.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://askezamax.github.io/">
+  <meta property="og:image" content="https://askezamax.github.io/images/header.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="manifest" href="manifest.json">
-
-  <script src="https://telegram.org/js/telegram-web-app.js"></script>
-  
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = "2092388232";
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500..700;1,9..144,500&family=Outfit:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Maksym Omelchenko",
+    "alternateName": ["AskezaMax", "MaxAskezaPL"],
+    "jobTitle": "Game developer",
+    "email": ["mailto:maxaskeza@gmail.com", "mailto:max.omelchenko.pl@gmail.com"],
+    "url": "https://askezamax.github.io/"
+  }
   </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
 </head>
 <body>
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="top">
+    <div class="top-inner">
+      <a class="mark" href="#content">Maksym Omelchenko</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <div class="wrap">
+      <img class="banner" src="images/header.jpg" width="1916" height="821" alt="Illustrated winter evening: a developer at a wooden desk in a snowy mountain village, string lights in the trees, and a game on the monitor." fetchpriority="high">
+      <div class="intro">
+        <p class="eyebrow">Independent game developer</p>
+        <h1>Maksym Omelchenko</h1>
+        <p class="lede">I make my own games, and I publish ready-made art for people building theirs. The point of the assets is to give that time back to the game.</p>
+      </div>
+    </div>
+
+    <section class="wrap section">
+      <div class="works">
+        <article class="work">
+          <div>
+            <h3>Character Avatar Icons</h3>
+            <p>Hundreds of character portraits for RPGs, strategies, quests, and visual novels — any game where a conversation needs a face. Buying the pack includes the free updates that follow.</p>
+            <p>If a portrait you need is missing, say so on the request form. The ones people ask for most often are drawn for the next update.</p>
+            <div class="actions">
+              <a class="button" href="https://assetstore.unity.com/packages/slug/246224">Unity Asset Store</a>
+              <a class="button ghost" href="https://docs.google.com/forms/d/e/1FAIpQLSeuS-E75NpyHh0ddqiaoc1B6tW-BBUvbOJblzYhgE7u2mriAw/viewform?usp=sharing">Request a portrait</a>
+            </div>
+          </div>
+          <div class="work-media">
+            <img src="images/avatars.jpg" width="900" height="400" alt="Scattered fantasy character portraits: warriors, elves, orcs, mages, and other faces for game dialogue." loading="lazy">
+          </div>
+        </article>
+
+        <article class="work reverse">
+          <div>
+            <h3>Educational jigsaw puzzles</h3>
+            <p>My first release, made with my daughter in mind. She learned her first English words here: colors, animals, numbers, and shapes. After that she stayed for the piano, the drawing board, the puzzles, and a memory game.</p>
+            <p>It is for small children, and it is better when a parent plays along. She managed a lot of it on her own around age two. Numbers, letters, figures, and animals are voiced, including basic English and Ukrainian.</p>
+            <div class="actions">
+              <a class="button" href="https://play.google.com/store/apps/details?id=com.MaxAskeza.PuzzleEduBoard&amp;hl=en&amp;gl=US">Google Play</a>
+            </div>
+          </div>
+          <div class="work-media">
+            <div class="video" data-youtube="6_wyzzQjF5c">
+              <button type="button" class="video-poster" aria-label="Play Educational jigsaw puzzles">
+                <img src="https://i.ytimg.com/vi/6_wyzzQjF5c/hqdefault.jpg" alt="" width="480" height="360">
+                <span class="play" aria-hidden="true"></span>
+              </button>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap section">
+      <h2>Contact</h2>
+      <p class="contact-mail">
+        <a href="mailto:maxaskeza@gmail.com">maxaskeza@gmail.com</a>
+        <a href="mailto:max.omelchenko.pl@gmail.com">max.omelchenko.pl@gmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p>Maksym Omelchenko</p>
+  </footer>
   <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
+    document.querySelectorAll(".video[data-youtube]").forEach(function (box) {
+      var poster = box.querySelector(".video-poster");
+      if (!poster) return;
+      poster.addEventListener("click", function () {
+        var id = box.getAttribute("data-youtube");
+        var watch = "https://www.youtube.com/watch?v=" + id;
+        if (location.protocol !== "http:" && location.protocol !== "https:") {
+          var opened = window.open(watch, "_blank", "noopener");
+          if (!opened) window.location.href = watch;
+          return;
         }
+        var frame = document.createElement("iframe");
+        frame.title = "Educational jigsaw puzzles";
+        frame.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+        frame.referrerPolicy = "strict-origin-when-cross-origin";
+        frame.allowFullscreen = true;
+        frame.src = "https://www.youtube.com/embed/" + id + "?autoplay=1";
+        box.replaceChildren(frame);
       });
     });
   </script>
